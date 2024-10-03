@@ -1,6 +1,6 @@
 name 'Holiday Keypad'
 author 'Holiday'
-description 'Keypad'
+description 'On screen PIN pad'
 version 'v1.0.0'
 fx_version "cerulean"
 
