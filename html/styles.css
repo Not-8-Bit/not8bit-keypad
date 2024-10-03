@@ -1,0 +1,103 @@
+html {
+  line-height: 1.5;
+  tab-size: 4;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+body {
+  margin: 0;
+  line-height: inherit;
+  user-select: none;
+  display: none;
+}
+
+.buttons {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  background-color: rgba(29, 29, 29, 0.89);margin-top: 0.5rem;
+  color: #ffffff;
+  outline: 1px solid black;
+  outline-offset: 3px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  width: 9%;
+}
+
+.keybody {
+  width: 265px;
+  height: 400px;
+  background-color: rgba(112, 112, 112, 0.89);
+  border-radius: 0.75rem;
+  display: flex;
+  justify-content: center;
+  outline: 1px solid rgb(0, 0, 0);
+  outline-offset: -7px;
+}
+
+.pinpad {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.textboxes {
+  display: flex;
+  justify-content: center;
+}
+
+#inputstatus {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  background-color: #000000;
+  color: #253bff;
+  margin-bottom: 0.90rem;
+  margin-top: 1.05rem;
+  outline: 1px solid rgb(20, 20, 20);
+  font-weight: 100;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0.25rem;
+  width: 70%;
+  height: 30px ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#passwordInput {
+  height: 45px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 0.65rem;
+  background-color: #253bff;
+  color: rgba(17, 24, 39, 0.89);
+  outline: 2px solid black;
+  outline-offset: 2px;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.keypadblocks{
+  display: block;
+}

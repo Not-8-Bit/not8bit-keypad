@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/cafcb3e7a8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="keybody">
+                <div class="keypadblocks">
+                    <div class="textboxes">
+                        <div id="inputstatus"></div>
+                    </div>
+                    <div class="textboxes">
+                        <input id="passwordInput" disabled type="password" pattern="\d{4,8}" maxlength="8">
+                    </div>
+                    <div class="pinpad">
+                        <div onclick="numpad('1')" class="buttons">1</div>
+                        <div onclick="numpad('2')" class="buttons">2</div>
+                        <div onclick="numpad('3')" class="buttons">3</div>
+                        <div onclick="numpad('4')" class="buttons">4</div>
+                        <div onclick="numpad('5')" class="buttons">5</div>
+                        <div onclick="numpad('6')" class="buttons">6</div>
+                        <div onclick="numpad('7')" class="buttons">7</div>
+                        <div onclick="numpad('8')" class="buttons">8</div>
+                        <div onclick="numpad('9')" class="buttons">9</div>
+                        <div onclick="numpad('*')" class="buttons">*</div>
+                        <div onclick="numpad('0')" class="buttons">0</div>
+                        <div onclick="numpad('#')" class="buttons">#</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
