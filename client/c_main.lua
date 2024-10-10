@@ -23,7 +23,7 @@ if Config.Debug == true then
     RegisterCommand("testkeypad",function()
         local DebugPassword = Config.DebugPassword -- pass this from the database or where ever you are storing the pin number.
         print( 'password: ' .. DebugPassword )
-        exports['holiday-keypad']:PasswordInput(DebugPassword, function(data) -- Copy from this line to line 34 and use that in your scripts to open the keypad.
+        exports[Config.ResourceName]:PasswordInput(DebugPassword, function(data) -- Copy from this line to line 34 and use that in your scripts to open the keypad.
             print(data.open)
             print(data.input)
             if (data.open == true) and (tonumber(data.input) == DebugPassword) then
