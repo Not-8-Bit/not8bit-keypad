@@ -46,7 +46,8 @@ You will need to add the export into your resource to open the keypad using one 
 
 ## Client Side Export
 ```
-    exports['holiday-keypad']:PasswordInput(DebugPassword, function(data)
+    local resourceName = GetCurrentResourceName()
+    exports[resourceName]:PasswordInput(DebugPassword, function(data)
         if (data.open == true) and (tonumber(data.input) == DebugPassword) then
         else 
             -- print('denied')

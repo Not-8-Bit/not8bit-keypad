@@ -1,5 +1,5 @@
-Config = {}
+Config = {} --Don't change
 
+--******DEBUG ONLY******--
 Config.Debug = true
 Config.DebugPassword = '01234'
-Config.ResourceName = 'not8bit-keypad'
