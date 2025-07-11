@@ -1,7 +1,7 @@
-name 'Holiday Keypad'
+name 'Not 8 Bit Keypad'
 author 'Holiday'
 description 'On screen PIN pad'
-version 'v1.0.0'
+version 'v2.0.0'
 fx_version "cerulean"
 
 game 'gta5'

@@ -22,15 +22,9 @@ exports('PasswordInput', PasswordInput)
 local resourceName = GetCurrentResourceName()
 if Config.Debug == true then
     RegisterCommand("testkeypad",function()
-        local DebugPassword = Config.DebugPassword -- pass this from the database or where ever you are storing the pin number.
-        print( 'password: ' .. DebugPassword )
-        exports[resourceName]:PasswordInput(DebugPassword, function(data) -- Copy from this line to line 34 and use that in your scripts to open the keypad.
-            print(data.open)
-            print(data.input)
+        local DebugPassword = Config.DebugPassword
+        exports[resourceName]:PasswordInput(DebugPassword, function(data)
             if (data.open == true) and (tonumber(data.input) == DebugPassword) then
-                print('open')
-            else 
-                print('denied')
             end
         end)
     end)

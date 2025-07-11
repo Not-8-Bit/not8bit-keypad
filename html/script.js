@@ -1,5 +1,13 @@
 var checking = false;
 var password = undefined;
+
+$(document).on('click', '.buttons', function() {
+    const key = $(this).data('key');
+    if (key) {
+        numpad(key);
+    }
+});
+
 window.addEventListener('message', function (event) {
     if (event.data.type == "open") {
         if (event.data.data != undefined) {

@@ -43,14 +43,21 @@ Start server
 At this point the test command will work. 
 You will need to add the export into your resource to open the keypad using one of your resources.
 ```
+## Step 3 
+```
+Change Config.Debug = true, to false
+```
+
+## Upcoming changes
+```
+Change pincode from keypad.
+```
 
 ## Client Side Export
 ```
     local resourceName = GetCurrentResourceName()
     exports[resourceName]:PasswordInput(DebugPassword, function(data)
         if (data.open == true) and (tonumber(data.input) == DebugPassword) then
-        else 
-            -- print('denied')
         end
     end)
 ```

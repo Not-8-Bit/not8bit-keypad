@@ -13,19 +13,19 @@ body {
 
 .buttons {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   line-height: 2rem;
   background-color: rgba(29, 29, 29, 0.89);margin-top: 0.5rem;
   color: #ffffff;
   outline: 1px solid black;
   outline-offset: 3px;
   padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  margin: 0.5rem;
+  padding-right: 1.99rem;
+  padding-top: 0.350rem;
+  padding-bottom: 0.40rem;
+  margin: 0.475rem;
   cursor: pointer;
-  width: 9%;
+  width: 15%;
 }
 
 .keybody {
@@ -100,4 +100,13 @@ body {
 
 .keypadblocks{
   display: block;
+}
+
+.star-fix {
+  display: inline-block;
+  position: relative;
+  top: 0.25em;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1;
 }

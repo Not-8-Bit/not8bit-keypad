@@ -1,5 +1,5 @@
 Config = {} --Don't change
 
 --******DEBUG ONLY******--
-Config.Debug = true
+Config.Debug = false
 Config.DebugPassword = '01234'
